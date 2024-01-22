@@ -18,5 +18,3 @@ greetings = [
 greetings.each do |greeting|
   Message.create(message: greeting)
 end
-
-puts "Seed data has been successfully added."
